@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>Before the script...</p>
+
+  <script>
+    "use strict";
+
+    //This will be filled in with proper login code, just to test
+    let username = prompt("Enter Username:", "");
+    let password = prompt ("Enter Password:", "");
+
+    while(username != "merit" && password != "library") {
+      alert("Incorrect login");
+      username = prompt("Enter Username:");
+      password = prompt ("Enter Password:");
+    }
+    alert("You have been logged in");
+
+    
+
+  </script>
+
+  <p>...After the script.</p>
+
+</body>
+
+</html>
